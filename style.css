@@ -6,6 +6,10 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+/* to make sure html doc is taking up entire page*/
+html{
+	height: 100%;
+}
 
 #content{
 	text-align: center;
@@ -14,4 +18,9 @@ body{
 
 h1, h3 {
 	color: white;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
 }
